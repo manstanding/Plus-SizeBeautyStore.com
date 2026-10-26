@@ -5,107 +5,238 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Plus-Size Beauty offers stylish beauty essentials and confidence-led inspiration for every curve."
+      content="Plus-Size Beauty is a fashion, beauty, skincare, and haircare destination for confident women."
     />
-    <title>Plus-Size Beauty</title>
+    <title>Plus-Size Beauty | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="#top" class="brand" aria-label="Plus-Size Beauty home">
+        <a href="index.html" class="brand" aria-label="Plus-Size Beauty home">
           <span class="brand-mark">PlusSize</span>
           <span class="brand-word">Beauty</span>
         </a>
 
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="#">Fashion</a>
-          <a href="#">Beauty</a>
-          <a href="#">Skin Care</a>
-          <a href="#">Hair Care</a>
-          <a href="#">Style Guides</a>
-          <a href="#">Stores</a>
-          <a href="#">Shop</a>
-          <a href="#">About</a>
+          <a href="index.html" class="active">Home</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="beauty.html">Beauty</a>
+          <a href="skin-care.html">Skin Care</a>
+          <a href="hair-care.html">Hair Care</a>
+          <a href="style-guides.html">Style Guides</a>
+          <a href="our-story.html">Our Story</a>
+          <a href="shop.html">Shop</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
         </nav>
+
+        <a href="shop.html" class="cart-button" aria-label="Shopping cart">
+          Cart <span class="cart-count">0</span>
+        </a>
       </div>
     </header>
 
-    <main id="top" class="page-shell">
-      <section class="hero" aria-label="Plus-Size Beauty hero section">
-        <div class="hero-backdrop" aria-hidden="true"></div>
-
+    <main>
+      <section class="hero">
         <div class="container hero-inner">
-          <div class="hero-title-wrap">
-            <div class="brand-script">PlusSizeBeauty</div>
-            <div class="brand-line">FASHION • BEAUTY • CONFIDENCE</div>
+          <div class="hero-copy">
+            <div class="eyebrow">Fashion • Beauty • Confidence</div>
             <h1>Bigger Beauty. Brighter You.</h1>
-            <p>Style. Care. Inspiration. For Every Curve.</p>
+            <p>
+              Curated essentials and inspiration for women who want style, beauty, and care that
+              fits every curve and every mood.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="shop.html">Shop Now</a>
+              <a class="btn btn-light" href="our-story.html">Our Story</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="photo-stack">
+              <div class="photo-card card-left"></div>
+              <div class="photo-card card-main"></div>
+              <div class="photo-card card-right"></div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="models-row" aria-label="Featured women models">
-          <figure class="model model-left">
-            <div class="model-photo photo-one"></div>
-          </figure>
-          <figure class="model model-center">
-            <div class="model-photo photo-two"></div>
-          </figure>
-          <figure class="model model-right">
-            <div class="model-photo photo-three"></div>
-          </figure>
-        </div>
-
-        <div class="container feature-row" aria-label="Shopping categories">
-          <article class="feature-card">
-            <div class="feature-card-body">
-              <h2>Fashion</h2>
-              <p>Trendy Looks<br />For Every Curve</p>
-            </div>
-            <button type="button">Shop Fashion</button>
+      <section class="category-strip">
+        <div class="container category-grid">
+          <article class="category-tile">
+            <h3>Fashion</h3>
+            <p>Modern looks made for every curve.</p>
+            <a href="fashion.html">Explore</a>
           </article>
-
-          <article class="feature-card">
-            <div class="feature-card-body">
-              <h2>Beauty</h2>
-              <p>Makeup Picks<br />That Empower</p>
-            </div>
-            <button type="button">Explore Beauty</button>
+          <article class="category-tile">
+            <h3>Beauty</h3>
+            <p>Makeup essentials that empower and glow.</p>
+            <a href="beauty.html">Explore</a>
           </article>
-
-          <article class="feature-card">
-            <div class="feature-card-body">
-              <h2>Skin Care</h2>
-              <p>Glow With<br />Confidence</p>
-            </div>
-            <button type="button">Shop Skin Care</button>
+          <article class="category-tile">
+            <h3>Skin Care</h3>
+            <p>Hydrating, nourishing routines for healthy skin.</p>
+            <a href="skin-care.html">Explore</a>
           </article>
-
-          <article class="feature-card">
-            <div class="feature-card-body">
-              <h2>Hair Care</h2>
-              <p>Healthy Hair<br />Beautiful You</p>
-            </div>
-            <button type="button">Shop Hair Care</button>
-          </article>
-
-          <article class="feature-card feature-card-story">
-            <div class="feature-card-body">
-              <h2>Real Stories</h2>
-              <p>Inspiration From<br />Amazing Women</p>
-            </div>
-            <button type="button">Read Stories</button>
+          <article class="category-tile">
+            <h3>Hair Care</h3>
+            <p>Soft, strong, shiny hair starts here.</p>
+            <a href="hair-care.html">Explore</a>
           </article>
         </div>
       </section>
+
+      <section class="content-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Featured picks</p>
+            <h2>New arrivals for your everyday glow</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image image-one"></div>
+              <div class="product-body">
+                <span class="product-tag">Best Seller</span>
+                <h3>Velvet Glow Serum</h3>
+                <p>Brightening hydration with a soft-glow finish.</p>
+                <div class="product-meta">
+                  <span class="price">$34</span>
+                  <a
+                    class="affiliate-link"
+                    href="https://example.com/affiliate/velvet-glow-serum"
+                    target="_blank"
+                    rel="sponsored noopener noreferrer"
+                  >
+                    View deal
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-two"></div>
+              <div class="product-body">
+                <span class="product-tag">Trending</span>
+                <h3>Golden Dew Blush</h3>
+                <p>Warm peach tones for a healthy, radiant finish.</p>
+                <div class="product-meta">
+                  <span class="price">$29</span>
+                  <a
+                    class="affiliate-link"
+                    href="https://example.com/affiliate/golden-dew-blush"
+                    target="_blank"
+                    rel="sponsored noopener noreferrer"
+                  >
+                    View deal
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-three"></div>
+              <div class="product-body">
+                <span class="product-tag">Editor’s Pick</span>
+                <h3>Silk Finish Foundation</h3>
+                <p>Natural-looking coverage built for comfort and confidence.</p>
+                <div class="product-meta">
+                  <span class="price">$42</span>
+                  <a
+                    class="affiliate-link"
+                    href="https://example.com/affiliate/silk-finish-foundation"
+                    target="_blank"
+                    rel="sponsored noopener noreferrer"
+                  >
+                    View deal
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section story-preview">
+        <div class="container story-grid">
+          <div>
+            <p class="eyebrow">Made for real women</p>
+            <h2>Beauty should feel empowering, not limiting.</h2>
+            <p>
+              We created Plus-Size Beauty to celebrate every woman with inclusive formulas,
+              uplifting inspiration, and styles that help you feel confident in your own skin.
+            </p>
+            <a class="btn btn-primary" href="our-story.html">Read Our Story</a>
+          </div>
+
+          <div class="stats-box">
+            <div>
+              <strong>12k+</strong>
+              <span>happy shoppers</span>
+            </div>
+            <div>
+              <strong>4.9/5</strong>
+              <span>average rating</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>inclusive mission</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section testimonial-section">
+        <div class="container">
+          <div class="section-heading center-heading">
+            <p class="eyebrow">Loved by our community</p>
+            <h2>Real results, real confidence</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote>
+              “It feels like beauty that finally understands me. The products are beautiful and
+              easy to love.”
+              <footer>— Dani, 34</footer>
+            </blockquote>
+            <blockquote>
+              “I love the glow, the colors, and the overall vibe. It feels elevated and personal.”
+              <footer>— Tiffany, 29</footer>
+            </blockquote>
+            <blockquote>
+              “This is the first beauty routine that makes me feel truly confident and seen.”
+              <footer>— Marlene, 41</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="brand footer-brand">
+          <span class="brand-mark">PlusSize</span>
+          <span class="brand-word">Beauty</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="style-guides.html">Guides</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <form class="newsletter" aria-label="Newsletter signup">
+          <input type="email" placeholder="Email address" aria-label="Email address" />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
