@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Plus-Size Beauty offers elevated beauty essentials designed for confident, inclusive self-expression."
+      content="Plus-Size Beauty offers stylish beauty essentials and confidence-led inspiration for every curve."
     />
-    <title>Plus-Size Beauty | Confidence in Every Shade</title>
+    <title>Plus-Size Beauty</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -20,262 +20,92 @@
     <header class="site-header">
       <div class="container nav-wrap">
         <a href="#top" class="brand" aria-label="Plus-Size Beauty home">
-          <span class="brand-mark">P</span>
-          <span>Plus-Size Beauty</span>
+          <span class="brand-mark">PlusSize</span>
+          <span class="brand-word">Beauty</span>
         </a>
 
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="#shop">Shop</a>
-          <a href="#categories">Categories</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#about">About</a>
+          <a href="#">Home</a>
+          <a href="#">Fashion</a>
+          <a href="#">Beauty</a>
+          <a href="#">Skin Care</a>
+          <a href="#">Hair Care</a>
+          <a href="#">Style Guides</a>
+          <a href="#">Stores</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
         </nav>
-
-        <div class="nav-actions">
-          <button class="nav-button" aria-label="View wishlist">Wishlist</button>
-          <button class="nav-button cart-button" aria-label="Shopping cart">
-            Cart <span class="cart-count">0</span>
-          </button>
-        </div>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Made for curves. Made for confidence.</p>
-            <h1>Beauty that fits your shine.</h1>
-            <p class="lead">
-              Discover curated makeup, skincare, and fragrance essentials crafted for
-              plus-size women who want to feel vibrant, seen, and unapologetically
-              beautiful.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#shop">Shop Bestsellers</a>
-              <a class="button secondary" href="#about">Learn More</a>
-            </div>
-            <ul class="hero-points" aria-label="Brand highlights">
-              <li>Inclusive shades</li>
-              <li>Skin-loving formulas</li>
-              <li>Free shipping over $50</li>
-            </ul>
-          </div>
+    <main id="top" class="page-shell">
+      <section class="hero" aria-label="Plus-Size Beauty hero section">
+        <div class="hero-backdrop" aria-hidden="true"></div>
 
-          <div class="hero-visual" aria-label="Beauty product display">
-            <div class="product-showcase">
-              <div class="showcase-card large">
-                <span class="tag">Best Seller</span>
-                <div class="bottle bottle-rose"></div>
-                <div class="card-copy">
-                  <strong>Velvet Glow Serum</strong>
-                  <span>$34</span>
-                </div>
-              </div>
-              <div class="showcase-card small">
-                <div class="compact-bottle bottle-gold"></div>
-                <div class="card-copy">
-                  <strong>Golden Radiance</strong>
-                  <span>$28</span>
-                </div>
-              </div>
-            </div>
+        <div class="container hero-inner">
+          <div class="hero-title-wrap">
+            <div class="brand-script">PlusSizeBeauty</div>
+            <div class="brand-line">FASHION • BEAUTY • CONFIDENCE</div>
+            <h1>Bigger Beauty. Brighter You.</h1>
+            <p>Style. Care. Inspiration. For Every Curve.</p>
           </div>
         </div>
-      </section>
 
-      <section class="promo-strip" aria-label="Store highlights">
-        <div class="container promo-grid">
-          <div>
-            <strong>Plus-size focused</strong>
-            <span>Beauty for every silhouette</span>
-          </div>
-          <div>
-            <strong>Clean ingredients</strong>
-            <span>Thoughtful formulas</span>
-          </div>
-          <div>
-            <strong>Easy returns</strong>
-            <span>30-day satisfaction guarantee</span>
-          </div>
+        <div class="models-row" aria-label="Featured women models">
+          <figure class="model model-left">
+            <div class="model-photo photo-one"></div>
+          </figure>
+          <figure class="model model-center">
+            <div class="model-photo photo-two"></div>
+          </figure>
+          <figure class="model model-right">
+            <div class="model-photo photo-three"></div>
+          </figure>
         </div>
-      </section>
 
-      <section id="categories" class="categories section-space">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Shop by category</p>
-            <h2>Beauty essentials for every mood</h2>
-          </div>
-
-          <div class="category-grid">
-            <article class="category-card">
-              <div class="category-icon">✦</div>
-              <h3>Makeup</h3>
-              <p>Foundations, blushes, lip colors, and finishing powders.</p>
-            </article>
-            <article class="category-card">
-              <div class="category-icon">❋</div>
-              <h3>Skincare</h3>
-              <p>Hydrating essentials for luminous, healthy-looking skin.</p>
-            </article>
-            <article class="category-card">
-              <div class="category-icon">✧</div>
-              <h3>Fragrance</h3>
-              <p>Soft florals and bold signatures crafted to last all day.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="shop" class="products section-space">
-        <div class="container">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Featured products</p>
-              <h2>Best sellers worth the spotlight</h2>
+        <div class="container feature-row" aria-label="Shopping categories">
+          <article class="feature-card">
+            <div class="feature-card-body">
+              <h2>Fashion</h2>
+              <p>Trendy Looks<br />For Every Curve</p>
             </div>
-            <a href="#" class="text-link">View all products</a>
-          </div>
+            <button type="button">Shop Fashion</button>
+          </article>
 
-          <div class="product-grid">
-            <article class="product-card">
-              <div class="product-image image-one"></div>
-              <div class="product-body">
-                <div class="product-meta">
-                  <span class="rating">★★★★★</span>
-                  <span class="price">$34</span>
-                </div>
-                <h3>Velvet Glow Serum</h3>
-                <p>Brightening hydration for a soft-glow finish.</p>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </article>
-
-            <article class="product-card">
-              <div class="product-image image-two"></div>
-              <div class="product-body">
-                <div class="product-meta">
-                  <span class="rating">★★★★★</span>
-                  <span class="price">$29</span>
-                </div>
-                <h3>Golden Dew Blush</h3>
-                <p>Warm peach tones with a dewy, healthy finish.</p>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </article>
-
-            <article class="product-card">
-              <div class="product-image image-three"></div>
-              <div class="product-body">
-                <div class="product-meta">
-                  <span class="rating">★★★★★</span>
-                  <span class="price">$42</span>
-                </div>
-                <h3>Silk Finish Foundation</h3>
-                <p>Weightless coverage with a smooth, radiant finish.</p>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </article>
-
-            <article class="product-card">
-              <div class="product-image image-four"></div>
-              <div class="product-body">
-                <div class="product-meta">
-                  <span class="rating">★★★★★</span>
-                  <span class="price">$26</span>
-                </div>
-                <h3>Rose Mist Lip Oil</h3>
-                <p>Hydrating shine with a juicy, plush finish.</p>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="reviews" class="reviews section-space">
-        <div class="container">
-          <div class="section-heading center">
-            <p class="eyebrow">Loved by our community</p>
-            <h2>Real results, real confidence</h2>
-          </div>
-
-          <div class="testimonial-grid">
-            <blockquote>
-              “The finish is so natural and radiant. I finally found a brand that feels
-              made for me.”
-              <footer>— Dani, 34</footer>
-            </blockquote>
-            <blockquote>
-              “Every product feels luxurious without being complicated. The shade range is
-              beautiful and inclusive.”
-              <footer>— Tiffany, 29</footer>
-            </blockquote>
-            <blockquote>
-              “I’ve never had a skincare routine this easy and effective. My skin looks so
-              healthy.”
-              <footer>— Marlene, 41</footer>
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="about section-space">
-        <div class="container about-grid">
-          <div>
-            <p class="eyebrow">Our story</p>
-            <h2>Beauty should feel empowering, not limiting.</h2>
-            <p>
-              Plus-Size Beauty was founded to celebrate women who deserve a beauty experience
-              that reflects their confidence, curves, and individuality. We focus on
-              inclusive formulas, modern rituals, and elevated essentials that help every
-              woman glow on her own terms.
-            </p>
-            <a href="#" class="button primary">Read Our Story</a>
-          </div>
-
-          <div class="about-panel">
-            <div class="mini-stat">
-              <strong>12k+</strong>
-              <span>happy customers</span>
+          <article class="feature-card">
+            <div class="feature-card-body">
+              <h2>Beauty</h2>
+              <p>Makeup Picks<br />That Empower</p>
             </div>
-            <div class="mini-stat">
-              <strong>4.9/5</strong>
-              <span>average rating</span>
+            <button type="button">Explore Beauty</button>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card-body">
+              <h2>Skin Care</h2>
+              <p>Glow With<br />Confidence</p>
             </div>
-            <div class="mini-stat">
-              <strong>100%</strong>
-              <span>inclusive beauty mission</span>
+            <button type="button">Shop Skin Care</button>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card-body">
+              <h2>Hair Care</h2>
+              <p>Healthy Hair<br />Beautiful You</p>
             </div>
-          </div>
+            <button type="button">Shop Hair Care</button>
+          </article>
+
+          <article class="feature-card feature-card-story">
+            <div class="feature-card-body">
+              <h2>Real Stories</h2>
+              <p>Inspiration From<br />Amazing Women</p>
+            </div>
+            <button type="button">Read Stories</button>
+          </article>
         </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <div>
-          <a href="#top" class="brand footer-brand">
-            <span class="brand-mark">P</span>
-            <span>Plus-Size Beauty</span>
-          </a>
-        </div>
-
-        <div class="footer-links">
-          <a href="#shop">Shop</a>
-          <a href="#categories">Categories</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#about">About</a>
-        </div>
-
-        <form class="newsletter" aria-label="Email newsletter signup">
-          <label class="sr-only" for="email">Email address</label>
-          <input id="email" type="email" placeholder="Email address" />
-          <button type="submit">Join</button>
-        </form>
-      </div>
-    </footer>
 
     <script src="script.js"></script>
   </body>
